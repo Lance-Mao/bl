@@ -42,11 +42,11 @@ class newBall:
 
 
 # 双色球规则：33个红球中抽取6个，16个蓝球中抽取1个,生成的注数
-# redball = newBall(33, 6, 16, 1)
-# redball.produce_new()
-# redball.showResult(5)
+redball = newBall(33, 6, 16, 1)
+redball.produce_new()
+redball.showResult(5)
 # 大乐透规则：35个红球中抽取5个，12个蓝球中抽取2个
-sevenBall = newBall(35, 5, 12, 2)
-sevenBall.produce_new()
-sevenBall.showResult(10)
+# sevenBall = newBall(35, 5, 12, 2)
+# sevenBall.produce_new()
+# sevenBall.showResult(10)
 
